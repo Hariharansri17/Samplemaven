@@ -11,7 +11,9 @@ public class Sampleproject {
 		
 		WebDriverManager.chromedriver().setup();
 		
-		WebDriver driver = (WebDriver) new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.facebook.com/login/");
 		
 		}
 
