@@ -40,6 +40,8 @@ public class Sampleproject {
 		   String Tagename = iphone_tagname.get(i).getText();
 		   
 		   System.out.println(Tagename);
+		   System.out.println(Tagename);
+		   System.out.println(Tagename);
 		   
 	   }
 	    
